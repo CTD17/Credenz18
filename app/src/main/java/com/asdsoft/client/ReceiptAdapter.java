@@ -1,4 +1,4 @@
-package com.asdsoft.reg_app_18;
+package com.asdsoft.client;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -10,8 +10,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 
-class ReceiptItems extends
-        RecyclerView.Adapter<ReceiptItems.ViewHolder> {
+class ReceiptItems extends RecyclerView.Adapter<ReceiptItems.ViewHolder> {
+
+
 
     class ViewHolder extends RecyclerView.ViewHolder {
 
@@ -37,7 +38,6 @@ class ReceiptItems extends
 
 
     public ReceiptItems(ArrayList<String> events) {
-
         event=events;
     }
 
